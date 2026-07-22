@@ -542,6 +542,41 @@ img { max-width: 100%; display: block; }
 .card__link span { transition: transform .2s var(--ease); display: inline-block; }
 .card__link:hover span { transform: translateX(4px); }
 
+/* ---------- AI & research community ---------- */
+.ai__intro {
+  max-width: 720px;
+  font-size: clamp(1.05rem, 2vw, 1.15rem);
+  color: var(--muted);
+  margin: 0 0 2.2rem;
+}
+.ai-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 1rem; }
+.ai-list__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.4rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.4rem 1.6rem;
+  transition: transform .25s var(--ease), border-color .25s var(--ease), box-shadow .25s var(--ease);
+}
+.ai-list__item:hover { transform: translateY(-3px); border-color: var(--ring); box-shadow: var(--shadow); }
+.ai-list__role {
+  flex: 0 0 auto;
+  width: 8.5rem;
+  font-family: var(--font-mono);
+  font-size: .78rem;
+  font-weight: 600;
+  color: var(--brand-2);
+  padding-top: .2rem;
+}
+.ai-list__title { font-size: 1.1rem; font-weight: 700; margin: 0 0 .35rem; }
+.ai-list__body p { color: var(--muted); margin: 0; font-size: .96rem; }
+.ai__profile { margin: 1.6rem 0 0; }
+.ai__profile a { font-weight: 600; color: var(--brand-2); }
+.ai__profile a span { transition: transform .2s var(--ease); display: inline-block; }
+.ai__profile a:hover span { transform: translateX(4px); }
+
 /* ---------- Contact ---------- */
 .contact { max-width: 640px; }
 .contact__lead { font-size: clamp(1.1rem, 2.4vw, 1.4rem); color: var(--muted); margin-bottom: 1.4rem; }
@@ -629,6 +664,11 @@ img { max-width: 100%; display: block; }
 /* ---------- Responsive ---------- */
 @media (max-width: 820px) {
   .about { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 560px) {
+  .ai-list__item { flex-direction: column; gap: .4rem; }
+  .ai-list__role { width: auto; }
 }
 
 @media (max-width: 680px) {
