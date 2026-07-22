@@ -1,6 +1,6 @@
 # Joe Heffer's CV website
 
-Personal CV & portfolio website for **Joe Heffer**.
+Personal CV & portfolio website for [Joe Heffer](https://heffer.info).
 
 ## Structure
 
