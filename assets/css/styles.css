@@ -618,6 +618,11 @@ img { max-width: 100%; display: block; }
   transition: transform .2s var(--ease), background .2s var(--ease), border-color .2s var(--ease);
 }
 .contact__links a:hover { transform: translateY(-2px); background: var(--surface-2); border-color: var(--ring); }
+.contact__badge { margin-top: 1.4rem; }
+.li-badge { display: none; }
+:root[data-theme="dark"] .li-badge--dark { display: block; }
+:root[data-theme="light"] .li-badge--light { display: block; }
+
 .contact__ico {
   display: grid; place-items: center;
   width: 22px; height: 22px;
