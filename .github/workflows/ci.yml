@@ -27,6 +27,5 @@ jobs:
             --no-progress
             --exclude 'linkedin\.com'
             --exclude 'scholar\.google\.com'
-            --exclude 'github-readme-stats\.vercel\.app'
             index.html README.md
           fail: true
