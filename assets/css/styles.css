@@ -704,3 +704,74 @@ img { max-width: 100%; display: block; }
   .reveal { opacity: 1; transform: none; transition: none; }
   * { scroll-behavior: auto; }
 }
+
+/* ---------- Print ---------- */
+@media print {
+  :root, :root[data-theme="dark"], :root[data-theme="light"] {
+    --bg: #fff;
+    --bg-alt: #fff;
+    --surface: #fff;
+    --surface-2: #f4f4f6;
+    --border: #ccc;
+    --text: #111;
+    --muted: #333;
+    --muted-2: #555;
+    --shadow: none;
+    color-scheme: light;
+  }
+
+  body { background: #fff; color: #111; }
+
+  /* Chrome that only makes sense on screen. */
+  .nav, .nav__toggle, .theme-toggle, .hero__bg, .hero__scroll,
+  .footer__top, .contact__form, .skip-link {
+    display: none !important;
+  }
+
+  /* Scroll-reveal is opacity:0 until the IntersectionObserver fires;
+     printing must show final content, not the hidden pre-reveal state. */
+  .reveal { opacity: 1 !important; transform: none !important; transition: none !important; }
+
+  /* Gradient text/backgrounds are unreliable in print output. */
+  .grad {
+    background: none !important;
+    -webkit-text-fill-color: currentColor !important;
+    color: #111 !important;
+  }
+  .nav__monogram, .footer__brand span, .card__icon, .contact__ico, .timeline__marker {
+    background: #444 !important;
+    color: #fff !important;
+    box-shadow: none !important;
+  }
+
+  a { color: #111; text-decoration: underline; }
+  .contact__links a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-weight: 400;
+    font-size: .8em;
+    color: #555;
+  }
+
+  .hero { min-height: auto; padding: 1rem 0 2rem; }
+  .section { padding: 1.5rem 0; }
+  .section--alt { background: #fff; }
+  .container { width: 100%; }
+
+  .btn {
+    box-shadow: none !important;
+    border: 1px solid #999;
+    color: #111 !important;
+    text-decoration: none !important;
+  }
+  .btn--primary { background: none; }
+
+  .timeline__card, .card, .ai-list__item {
+    break-inside: avoid;
+    box-shadow: none;
+    border-color: #ccc;
+  }
+  .card::before { display: none; }
+  .card:hover, .timeline__card:hover, .ai-list__item:hover { transform: none; }
+
+  .footer { background: #fff; border-top-color: #ccc; }
+}
