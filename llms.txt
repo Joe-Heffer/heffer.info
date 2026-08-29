@@ -1,0 +1,37 @@
+# Joe Heffer
+
+> Senior Research Data Engineer at the University of Sheffield (IT Services), and physicist by background. Builds research software and data pipelines across health, environmental, and genomic data, with a focus on FAIR principles, reproducible workflows, and the responsible use of AI/ML in research.
+
+This is a personal CV and portfolio site at https://heffer.info/. It is a single static HTML page — no login, no client-side rendering required to read the content. Section anchors below link into that page.
+
+## Profile
+
+- [About](https://heffer.info/#about): Background, current focus, and toolkit (Python, R, SQL, Linux, Git, AI/ML, data pipelines, HPC).
+- [Experience](https://heffer.info/#experience): Career timeline — Senior Research Data Engineer at Sheffield (2020–present), Analytics Developer in financial services (2017–2020), PhD in Physics at Liverpool (2013–2017, atom interferometry), MPhys at Manchester (2008–2013).
+- [CV (PDF)](https://heffer.info/assets/cv.pdf): Downloadable CV.
+
+## Selected projects
+
+- [SORT Online](https://casestudiesrcg.blogspot.com/2026/02/supporting-nhs-research-readiness-with.html): Platform built with NHS England for healthcare organisations to self-assess research readiness.
+- [FAIR² for Research Software](https://fair2-for-research-software.github.io/Documentation/): Training course on documenting research software.
+- [Music AI task scheduling](https://casestudiesrcg.blogspot.com/2022/11/asynchronous-task-scheduling-for-music.html): Async ML task scheduling for a music-generation web app (Svelte, Django REST Framework, Celery).
+- [Urban Flows Observatory](https://github.com/urban-flows/data-logger-server): Data engineering for a citywide environmental sensor network.
+- [AIRBODS](https://casestudiesrcg.blogspot.com/2021/11/supporting-airborne-infection-research.html): Data pipelines for airborne SARS-CoV-2 transmission research.
+- [CUREd+ Research Database](https://n8cir.org.uk/case-studies/research-data-steward/joe-heffer/): Linked NHS hospital, mental health and ambulance service records.
+- [COG-UK genomics pipeline](https://casestudiesrcg.blogspot.com/2021/02/coronavirus-pandemic-helping-national.html): Software architecture and testing for a SARS-CoV-2 Nanopore sequencing pipeline.
+
+## AI & research community
+
+- [AI for Research Day 2026](https://sites.google.com/sheffield.ac.uk/ai-research-day/): Programme lead for the Centre for Machine Intelligence's annual conference.
+- [Data Director Agentic AI Blueprint](https://www.rd-alliance.org/groups/data-director-agentic-ai-blueprint/activity/): Research Data Alliance working group on agentic AI for FAIR data management.
+- [Research Agents Reading Group](https://github.com/EdwinB12/Agents-Reading-Group): Fortnightly reading group on agentic AI tools and research.
+- [Shef.AI community profile](https://shef-ai.github.io/single-profile.html?user=joe-heffer): Sheffield AI community profile.
+
+## Contact
+
+- [Contact](https://heffer.info/#contact): Contact form.
+- [GitHub](https://github.com/Joe-Heffer-Shef)
+- [LinkedIn](https://www.linkedin.com/in/joe-heffer-50323743/)
+- [ORCID](https://orcid.org/0000-0001-8733-1117)
+- [Google Scholar](https://scholar.google.com/citations?user=4pj7w_0AAAAJ)
+- [Linktree](https://linktr.ee/joeheffer)
