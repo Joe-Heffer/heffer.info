@@ -473,6 +473,31 @@ img { max-width: 100%; display: block; }
 .timeline__role { font-size: 1.25rem; font-weight: 700; margin: .3rem 0 .1rem; }
 .timeline__org { color: var(--muted); font-weight: 500; margin: 0 0 .6rem; }
 .timeline__desc { color: var(--muted); margin: 0 0 .8rem; }
+.timeline__pubs { list-style: none; margin: 0; padding: 0; display: grid; gap: .6rem; }
+.timeline__pubs li {
+  display: flex;
+  align-items: baseline;
+  gap: .7rem;
+  padding: .6rem .8rem;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--brand-2);
+  border-radius: 8px;
+  background: var(--surface-2);
+}
+.timeline__pub-type {
+  flex: 0 0 4.2rem;
+  font-family: var(--font-mono);
+  font-size: .72rem;
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--brand-2-text);
+}
+.timeline__pubs a { font-weight: 500; }
+@media (max-width: 520px) {
+  .timeline__pubs li { flex-direction: column; gap: .15rem; }
+  .timeline__pub-type { flex: none; }
+}
 .timeline__tags { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .4rem; }
 .timeline__tags li {
   font-family: var(--font-mono);
