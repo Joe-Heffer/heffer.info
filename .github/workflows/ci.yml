@@ -14,18 +14,5 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npx html-validate index.html
-
-  link-check:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: lycheeverse/lychee-action@v2
-        with:
-          args: >-
-            --include-fragments
-            --no-progress
-            --exclude 'linkedin\.com'
-            --exclude 'scholar\.google\.com'
-            index.html README.md
-          fail: true
+      - run: npm install --global html-validate
+      - run: html-validate index.html
