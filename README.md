@@ -2,6 +2,7 @@
 
 [![CI](https://github.com/Joe-Heffer/heffer.info/actions/workflows/ci.yml/badge.svg)](https://github.com/Joe-Heffer/heffer.info/actions/workflows/ci.yml)
 [![Accessibility Audit](https://github.com/Joe-Heffer/heffer.info/actions/workflows/accessibility.yml/badge.svg)](https://github.com/Joe-Heffer/heffer.info/actions/workflows/accessibility.yml)
+[![Link Check](https://github.com/Joe-Heffer/heffer.info/actions/workflows/links.yml/badge.svg)](https://github.com/Joe-Heffer/heffer.info/actions/workflows/links.yml)
 
 Personal CV & portfolio website for [Joe Heffer](https://heffer.info).
 
